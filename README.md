@@ -19,11 +19,11 @@ they can be used to make plots using "PythonApplication1.py".
 The file source1.cpp contains the following functions:
 
 
-- double ** sparse(int n)                             creates a double array of doubles
-- void clear_memory                                   clears the memory from the above double array
-- double* zeros(int n)                                creates an array of doubles
-- void initialize(body_list & bodies,                 given a correctly formatted file, 
-                  std::string filename)               it initiates body_list with the values from that file
+- double ** sparse(int n)                             : creates a double array of doubles
+- void clear_memory                                   : clears the memory from the above double array
+- double* zeros(int n)                                : creates an array of doubles
+- void initialize(body_list & bodies,                 : given a correctly formatted file, 
+                  std::string filename)               : it initiates body_list with the values from that file
 - void write_conserved_quantities_to_file(.....)      does at it says
 
 
